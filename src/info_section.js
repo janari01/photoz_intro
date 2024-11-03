@@ -29,7 +29,6 @@ function InformationSection() {
 
             </section>
         </div>
-        
         </>
     )
 }

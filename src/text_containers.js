@@ -22,11 +22,9 @@ function RedshiftInformation() {
                 </div>
                 <div className="text_description">
                     <p>
-                    Meist eemal olevate galaktikate poolt kiiratud valgus paistab meile punasemana. 
-                    See on tingitud Universumi paisumisest. 
-                    Seega footoni kosmoloogiline punanihe näitab, kui palju on universum paisunud footoni kiirgamise ajast. 
-                    Mida suurem punanihe, seda kaugemalt minevikus antud objekti kiirgus (footonid) pärinevad.
-                    Kasutades fotomeetrilisi väärtusi, saab masinõppe algoritmi abil umbkaudse punanihke väärtuse.
+                    Meist eemal olevate galaktikate poolt kiiratud valgus paistab meile punasemana, 
+                    on tingitud Universumi paisumisest. 
+                    Seega footoni kosmoloogiline punanihe näitab, kui palju on Universum paisunud footoni kiirgamise ajast. 
                     </p>
                 </div>
                 <div className='vid_description'>
@@ -59,9 +57,9 @@ function MLInformation() {
 
                 <div className="text_description">
                     <p>
-                    Otsustuspuu loomine on sirgjooneline protsess. 
-                    Peab olema olemas andmekogu: fotomeetrilised väärtused, artiklis kasutusel 9 filtrit (u - k), väärtused on korrigeeritud, ja punanihke väärtused.
-                    Soovitatav normeerida x ja y väärtused, nii saab vältida ületreeningut.
+                    Otsustuspuu loomine on mittekeeruline protsess. 
+                    Andmekogu: fotomeetrilised väärtused, artiklis kasutusel 9 fotomeetrilist väärtust (u - k), väärtused on korrigeeritud, ja punanihke väärtused.
+                    Soovitatav normeerida x, y ning fotomeetrilised väärtused.
                     </p>
                 </div>
 
@@ -75,7 +73,7 @@ function MLInformation() {
                     <p>
                     On olemas andmete massiiv läviväärtustega, leida parim sõlm, kust poolitada. 
                     Iga läviväärtuse jaoks võimalikes läviväärtustes, leiame poolitus koha, jagades andmed kahte ossa.
-                    Järgmisena kasutada dispersiooni valemit koos kaaluteguritega. 
+                    Kasutada dispersiooni valemit koos kaaluteguritega. 
                     Kui saadud väärtus on rangelt suurem kui hetkeline maksimaalne väärtus, uuendame objekti väärtusi.
                     Lehesõlmes olevate väärtustega saab välja arvutada keskmise väärtuse (fotomeetriline punanihe).
                     Viimaks, rekursiivselt saab vasaku ja parema alampuu, suurendades puu sügavust (muutuja n).
@@ -135,7 +133,7 @@ function MLValidation() {
                     <p>
                         Hajusgraafikult saab teada, et punanihetel, mis on suuremad kui 0.3, hakkab täpsus langema.
                         Mida suurem on andmekogu, seda stabiilsemad on otsustuspuud, seega väljundid sarnanevad.
-                        Antud juhul leidub punanihkeid, mida pole andmetes piisavalt.
+                        Antud juhul leidub punanihkeid, mida pole andmekogus piisavalt.
                     </p>
                 </div>
 
